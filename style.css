@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+.login {
+    width: 320px;
+    height: 420px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 80px 0 80px 0;
+    background-color: rgba(17, 17, 17, 0.486);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px;
+}
+
+.user {
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 112px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+.login p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 21px;
+}
+
+.login input[type="text"], input[type="password"] {
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.login input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 35px;
+    color: #000;
+    background: #fff;
+    border-radius: 20px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.login input[type="submit"]:hover {
+    background: #ff4d4d;
+    transition: 0.2s;
+}
+
+.login a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4b4b4b;
+    transition: 0.2s;
+}
+
+.login a:hover {
+    transition: 0.2s;
+    color: #ff4d4d;
+}
+
+form p {
+    color: white;
+}
