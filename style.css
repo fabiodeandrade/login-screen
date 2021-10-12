@@ -97,3 +97,10 @@ h1 {
 form p {
     color: white;
 }
+
+.error {
+    color: #ff4d4d;
+    margin-top: 20px;
+    font-size: 10px;
+
+}
